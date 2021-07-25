@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro DEVs</title>
+    <style>
+        body {
+            background-image: url(img/Fundo-conteudoPrincipal.jpg);
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Cadastro de DEVs</h1>
+        <p>Complete as Informações Abaixo &downarrow; </p>
+        <br>
+        <a href="index.html" style="color: gray;" type="submit"><strong> Voltar seleção de cursos</strong></a>
+    </div>
+    <div id="content"> 
+        <form id="form">
+            <fieldset>
+                <div>
+                    <label>Nome Completo:</label>
+                    <input type="text" nome="nome" id="nome">
+                </div>
+                <div>
+                    <labe>Email:</labe>
+                    <input type="text" nome="email" id="email">
+                </div>
+                <div>
+                    <label>Enderços Completo:</label>
+                    <input type="text" nome="Endereço" id="Endereço">
+                </div>
+                <div>
+                    <label>Cep:</label>
+                    <input type="" nome="Cep" id="Cep">
+                </div>
+                <div>
+                    <label>Data de Nascimento:</label>
+                    <input type="date" nome="Data" id="Data">
+                </div>
+                <div>
+                    <label>Telefone:</label>
+                    <input type="text" nome="Telefone" id="Telefone">
+                </div>
+
+                <div>
+                    <label>O que voce gostaria de Aprender?</label>
+                    <br>
+
+                    <label>
+                        <input type="checkbox" nome="Devweb" value="frontend">Frontend
+                    </label>
+
+                    <label>
+                        <input type="checkbox" nome="Devweb" value="backend">Backend
+                    </label>
+
+                    <label>
+                        <input type="checkbox" nome="Devweb" value="fullstack">Fullstack
+                    </label>
+                </div>
+
+                <div>
+                    <Label>Senioridade</Label>
+                    <select id="Senioridade">
+                        <option>Junior</option>
+                        <option>Pleno</option>
+                        <option>Senior</option>
+                    </select>
+                </div>
+                <input type="submit" value="Cadastrar Clientes">
+            </fieldset>
+        </form>
+    </div>
+</body>
+<script src="JS/script.js"></script>
+
+</html>
